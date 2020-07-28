@@ -1,0 +1,118 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  font-size: 5mm;
+}
+
+.search-bar{
+  border: none;
+}
+.search {
+  margin: 5px;
+  padding-left: 10px;
+  padding-bottom: 30px; 
+}
+.Appclearsky {
+  background-image: url("https://th.bing.com/th/id/OIP.wxpz3WgjglZxAc2gz_EH9AHaEK?pid=Api&rs=1");
+  background-size: cover;
+  background-position: bottom;
+  transition: 0.5 ease-out;
+}
+
+.Appcloud {
+  background-image: url("https://th.bing.com/th/id/OIP.Vp6JXDoziQnJs6PgfTVCSwHaE7?w=260&h=180&c=7&o=5&pid=1.7");
+  background-size: cover;
+  background-position: bottom;
+  transition: 0.4 ease-out;
+}
+
+.Apprain {
+  background-image: url("https://moneymarketing.co.za/wp-content/uploads/2019/12/Heavy-rain-1024x458.jpeg");
+  background-size: cover;
+  /*background-position: bottom;*/
+  transition: 0.4 ease-out;
+}
+
+.Appsunny {
+  background-image: url("https://bloximages.chicago2.vip.townnews.com/tucson.com/content/tncms/assets/v3/editorial/c/21/c2108eb0-5f3b-5918-b1e1-b57ac047394d/578e9192af03b.image.jpg?resize=1200%2C879");
+  background-size: cover;
+  background-position: bottom;
+  transition: 0.4 ease-out;
+}
+
+.Appsnow {
+  background-image: url("https://th.bing.com/th/id/OIP.atUMf6qD1GJq4-oAmPU1ZQHaDS?w=324&h=155&c=7&o=5&pid=1.7");
+  background-size: cover;
+  background-position: bottom;
+  transition: 0.4 ease-out;
+}
+main{
+  min-height: 100vh;
+  padding: 25px;
+}
+
+.search .search-bar{
+  display: block;
+  width: 100%;
+  padding: 15px ;
+  appearance: none;
+  background-color: rgba(225,225,225,0.8);
+  margin-top: 10px;
+  box-shadow: rgba(0,0,0,0.2);
+  color: #313131;
+  font-size: 20px;
+  transition: 0.4s ease;
+}
+
+.search .search-bar:focus{
+  background-color: rgba(225,225,225,0.2);
+}
+
+.Locationbar .location{
+  color: #FFF;
+  font-size: 32px;
+  font-weight: 500;
+  text-align: center;
+  text-shadow: 3px 3px rgba(50,50,50,0.2);
+}
+
+.Locationbar .date{
+  padding-top: 10px;
+  color: #FFF;
+  font-size: 20px;
+  font-weight: 300;
+  font-style: italic;
+  text-align: center;
+  text-shadow: 2px 2px rgba(50,50,50,0.2);
+}
+
+.weatherbar {
+  text-align: center;
+}
+
+.weatherbar .degrees{
+  position : relative;
+  display: inline-block;
+  margin: 30px auto;
+  background-color: rgba(225,225,225,0.2);
+  border-radius: 16px;
+  padding : 15px 25px;
+  color : #FFF;
+  font-size: 102px;
+  font-weight: 900;
+  text-shadow: 3px 3px rgba(50,50,50,0.2);
+  text-align: center;
+  box-shadow: 3px 3px rgba(0,0,0,0.2);
+}
+
+.weatherbar .weather {
+  color: #FFF;
+  font-size: 48px;
+  font-weight: 700;
+  text-shadow: 3px 3px rgba(50,50,50,0.2);
+}
